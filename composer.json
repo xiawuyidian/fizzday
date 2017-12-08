@@ -1,0 +1,22 @@
+{
+    "name": "fizzday/fizzday",
+    "authors": [
+        {
+            "name": "fizz",
+            "email": "fizzday@yeah.net"
+        }
+    ],
+    "require": {
+        "fizzday/fizzhelper": "dev-master",
+        "fizzday/fizzdb": "dev-master",
+        "fizzday/requests": "dev-master",
+        "fizzday/fizzview": "dev-master",
+        "fizzday/fizzroute": "dev-master",
+        "fizzday/fizzjwt": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
