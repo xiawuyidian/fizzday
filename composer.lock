@@ -1,0 +1,239 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dcb6bf6e952250c00f1b43f00d5ae486",
+    "packages": [
+        {
+            "name": "fizzday/fizzdb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/FizzDB.git",
+                "reference": "a3404e5d1e4f5df8f46571a659cb31ecb843c068"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/FizzDB/a3404e5d1e4f5df8f46571a659cb31ecb843c068.zip",
+                "reference": "a3404e5d1e4f5df8f46571a659cb31ecb843c068",
+                "shasum": ""
+            },
+            "require": {
+                "fizzday/fizzhelper": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\FizzDB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fizz",
+                    "email": "fizzday@yeah.net"
+                }
+            ],
+            "description": "a mini php router with laravel like, is using for Fizzday php framework, also it can using for any other php framework which built with composer or according the psr standard",
+            "time": "2017-08-01T09:56:50+00:00"
+        },
+        {
+            "name": "fizzday/fizzhelper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/FizzHelper.git",
+                "reference": "beb777bee374b7290132372300abe601f08d2125"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/FizzHelper/beb777bee374b7290132372300abe601f08d2125.zip",
+                "reference": "beb777bee374b7290132372300abe601f08d2125",
+                "shasum": ""
+            },
+            "type": "function",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\FizzHelper\\": "src/"
+                },
+                "files": [
+                    "src/FizzHelper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fizz",
+                    "email": "fizzday@yeah.net"
+                }
+            ],
+            "description": "the useful helpers for php that widely used",
+            "keywords": [
+                "helper",
+                "php",
+                "widely used"
+            ],
+            "time": "2017-07-27T05:43:33+00:00"
+        },
+        {
+            "name": "fizzday/fizzjwt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/FizzJWT.git",
+                "reference": "dd1a2f38ebcc1547b41cbbd8bfa254e84d47c68e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/FizzJWT/dd1a2f38ebcc1547b41cbbd8bfa254e84d47c68e.zip",
+                "reference": "dd1a2f38ebcc1547b41cbbd8bfa254e84d47c68e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\FizzJWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fizz",
+                    "email": "fizzday@yeah.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP, based on 'firebase/jwt', add the decode() third param default 'HS256'(JWT 无状态 restful api 认证)",
+            "homepage": "https://github.com/fizzday/fizzjwt",
+            "time": "2017-11-10T03:11:12+00:00"
+        },
+        {
+            "name": "fizzday/fizzroute",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/FizzRoute.git",
+                "reference": "f7261bc2194a847532b0b5fee76b12510c4aebae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/FizzRoute/f7261bc2194a847532b0b5fee76b12510c4aebae.zip",
+                "reference": "f7261bc2194a847532b0b5fee76b12510c4aebae",
+                "shasum": ""
+            },
+            "require-dev": {
+                "fizzday/fizzhelper": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\FizzRoute\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fizz",
+                    "email": "fizzday@yeah.net"
+                }
+            ],
+            "description": "a mini php router with laravel like, is using for Fizzday php framework, also it can using for any other php framework which built with composer or according the psr standard",
+            "time": "2017-07-27T02:39:18+00:00"
+        },
+        {
+            "name": "fizzday/fizzview",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/FizzView.git",
+                "reference": "08e9fa789c3cf7a5152731f38e15f360b5cbd9e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/FizzView/08e9fa789c3cf7a5152731f38e15f360b5cbd9e9.zip",
+                "reference": "08e9fa789c3cf7a5152731f38e15f360b5cbd9e9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\FizzView\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fizz",
+                    "email": "864759073@qq.com"
+                }
+            ],
+            "description": "xxx",
+            "time": "2017-07-27T01:53:12+00:00"
+        },
+        {
+            "name": "fizzday/requests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fizzday/Requests.git",
+                "reference": "58476dcb0f0f1d53c3c1f67e48f9978ed0d1722e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fizzday/Requests/58476dcb0f0f1d53c3c1f67e48f9978ed0d1722e.zip",
+                "reference": "58476dcb0f0f1d53c3c1f67e48f9978ed0d1722e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fizzday\\Requests\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fizz",
+                    "email": "fizzday@yeah.net"
+                }
+            ],
+            "description": "xxx",
+            "time": "2017-07-31T02:33:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fizzday/fizzhelper": 20,
+        "fizzday/fizzdb": 20,
+        "fizzday/requests": 20,
+        "fizzday/fizzview": 20,
+        "fizzday/fizzroute": 20,
+        "fizzday/fizzjwt": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
